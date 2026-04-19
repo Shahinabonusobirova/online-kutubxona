@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Badiiy Asarlar Kutubxonasi</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <header>
+        <img src="/static/logo.png" alt="Logo" class="logo">
+        <h1>Badiiy Asarlar Kutubxonasi</h1>
+        <p>O‘zbek adabiyotining sara namunalarini o‘qing va yuklab oling</p>
+    </header>
+
+    <nav>
+        <a href="#bosh">Bosh sahifa</a>
+        <a href="#kategoriyalar">Kategoriyalar</a>
+        <a href="#asarlar">Asarlar</a>
+        <a href="#biz">Biz haqimizda</a>
+    </nav>
+
+    <div class="container">
+
+        <section class="hero" id="bosh">
+            <h2>Elektron kutubxonaga xush kelibsiz</h2>
+            <p>
+                Ushbu sayt orqali mashhur badiiy asarlarni ko‘rishingiz,
+                ular haqida ma’lumot olishingiz va PDF shaklida yuklab olishingiz mumkin.
+            </p>
+            <a href="#asarlar" class="hero-btn">Asarlarni ko‘rish</a>
+        </section>
+        <section>
+    <h2>Sayt haqida</h2>
+    <div class="stats">
+        <div class="stat-box">
+            <h3>6+</h3>
+            <p>Badiiy asar</p>
+        </div>
+        <div class="stat-box">
+            <h3>5+</h3>
+            <p>Mashhur muallif</p>
+        </div>
+        <div class="stat-box">
+            <h3>100%</h3>
+            <p>Qulay qidiruv</p>
+        </div>
+    </div>
+</section>
+
+        <section id="kategoriyalar">
+            <h2>Kategoriyalar</h2>
+            <div class="categories">
+                <div class="category-box">Romanlar</div>
+                <div class="category-box">Tarixiy asarlar</div>
+                <div class="category-box">Bolalar adabiyoti</div>
+                <div class="category-box">Hayotiy asarlar</div>
+            </div>
+        </section>
+
+        <section id="asarlar">
+            <h2>Asarlar ro‘yxati</h2>
+
+            <input type="text" id="searchInput" placeholder="Asar nomini qidiring...">
+
+            <div class="book-grid">
+
+                <div class="book">
+                    <img src="/static/otkan-kunlar.jpg" alt="O‘tkan kunlar" class="book-img">
+                    <span class="genre">Roman</span>
+                    <h3>O‘tkan kunlar</h3>
+                    <p><b>Muallif:</b> Abdulla Qodiriy</p>
+                    <p>O‘zbek romanchiligining ilk va eng mashhur namunalaridan biri.</p>
+                    <details>
+                        <summary>Batafsil</summary>
+                        <p>Asarda muhabbat, ijtimoiy hayot va tarixiy muhit chuqur tasvirlangan.</p>
+                    </details>
+                    <a href="/download/otkan-kunlar.pdf">Yuklab olish</a>
+                </div>
+
+                <div class="book">
+                    <img src="/static/mehrobdan-chayon.jpg" alt="Mehrobdan chayon" class="book-img">
+                    <span class="genre">Tarixiy roman</span>
+                    <h3>Mehrobdan chayon</h3>
+                    <p><b>Muallif:</b> Abdulla Qodiriy</p>
+                    <p>Tarixiy voqealar asosida yozilgan mashhur va mazmunli roman.</p>
+                    <details>
+                        <summary>Batafsil</summary>
+                        <p>Asarda adolat, zulm va inson taqdiri masalalari yoritilgan.</p>
+                    </details>
+                    <a href="/download/mehrobdan-chayon.pdf">Yuklab olish</a>
+                </div>
+
+                <div class="book">
+                    <img src="/static/kecha-va-kunduz.jpg" alt="Kecha va kunduz" class="book-img">
+                    <span class="genre">Roman</span>
+                    <h3>Kecha va kunduz</h3>
+                    <p><b>Muallif:</b> Cho‘lpon</p>
+                    <p>Jamiyat hayoti va inson taqdiri haqida chuqur ma’noli asar.</p>
+                    <details>
+                        <summary>Batafsil</summary>
+                        <p>Asarda davr ruhi, xalq hayoti va insoniy kechinmalar aks etgan.</p>
+                    </details>
+                    <a href="/download/kecha-va-kunduz.pdf">Yuklab olish</a>
+                </div>
+
+                <div class="book">
+                    <img src="/static/shum-bola.jpg" alt="Shum bola" class="book-img">
+                    <span class="genre">Qissa</span>
+                    <h3>Shum bola</h3>
+                    <p><b>Muallif:</b> G‘afur G‘ulom</p>
+                    <p>Bolalik va sarguzashtlarga boy qiziqarli asar.</p>
+                    <details>
+                        <summary>Batafsil</summary>
+                        <p>Asarda bola xarakteri, hazil va hayotiy voqealar yorqin tasvirlangan.</p>
+                    </details>
+                    <a href="/download/shum-bola.pdf">Yuklab olish</a>
+                </div>
+
+                <div class="book">
+                    <img src="/static/sariq-devni-minib.jpg" alt="Sariq devni minib" class="book-img">
+                    <span class="genre">Bolalar adabiyoti</span>
+                    <h3>Sariq devni minib</h3>
+                    <p><b>Muallif:</b> Xudoyberdi To‘xtaboyev</p>
+                    <p>Bolalar uchun yozilgan qiziqarli va sarguzashtlarga boy asar.</p>
+                    <details>
+                        <summary>Batafsil</summary>
+                        <p>Asarda tasavvur, sarguzasht va bolalarcha dunyoqarash aks etgan.</p>
+                    </details>
+                    <a href="/download/sariq-devni-minib.pdf">Yuklab olish</a>
+                </div>
+
+                <div class="book">
+                    <img src="/static/dunyoning-ishlari.jpg" alt="Dunyoning ishlari" class="book-img">
+                    <span class="genre">Hayotiy asar</span>
+                    <h3>Dunyoning ishlari</h3>
+                    <p><b>Muallif:</b> O‘tkir Hoshimov</p>
+                    <p>Ona mehri va hayotiy xotiralar haqida ta’sirli asar.</p>
+                    <details>
+                        <summary>Batafsil</summary>
+                        <p>Asarda insoniylik, samimiyat va oilaviy qadriyatlar yoritilgan.</p>
+                    </details>
+                    <a href="/download/dunyoning-ishlari.pdf">Yuklab olish</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="biz">
+            <h2>Biz haqimizda</h2>
+            <p>
+                Ushbu loyiha kitobxonlik madaniyatini rivojlantirish, badiiy asarlarni
+                qulay va zamonaviy ko‘rinishda taqdim etish maqsadida yaratildi.
+            </p>
+        </section>
+
+    </div>
+
+    <footer>
+    <p>2026 © Badiiy Asarlar Kutubxonasi</p>
+    <p>Loyiha muallifi: Talabalar</p>
+    <p>HTML, CSS, JavaScript, Python Flask, Java asosida yaratildi</p>
+</footer>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
