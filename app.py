@@ -9,5 +9,5 @@ def home():
 @app.route("/download/<filename>")
 def download(filename):
     return send_file("books/" + filename, as_attachment=True)
-
-app.run(host="0.0.0.0", port=5000, debug=True)
+if __name__=="__main__":
+    app.run(host="0.0.0.0", port=5000, debug=True)
